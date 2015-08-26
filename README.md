@@ -1,6 +1,6 @@
 # DeployAutoScalingGroup
 
-This script redeploys all instances in an Auto Scaling group while maintaining the number of healthy instances and with zero downtime. 
+This script redeploys all instances in an Auto Scaling Group, with an Elastic Load Balancer, while maintaining the same number of healthy instances and with zero downtime. 
 
 For an in-depth explanation of how the script works, as well as it's prerequisites, you can [read more here](http://kylewbanks.com/blog/Redeploying-an-Application-in-an-AWS-Auto-Scaling-Group-Behind-an-ELB-with-Zero-Downtime).
 
